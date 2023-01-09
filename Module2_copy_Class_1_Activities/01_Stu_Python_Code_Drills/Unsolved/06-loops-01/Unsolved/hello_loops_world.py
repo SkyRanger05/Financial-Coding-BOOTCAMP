@@ -3,23 +3,23 @@ num_list = [2, 65, 3, 7, 39, 22, 11, 94, 299, 9, 20, 21, 51, 37]
 
 # Iterate through the provided `num_list` and print out every number in the list
 print("All of the numbers in the list are:")
-for s in num_list:
-  print(s) 
-
+for x in num_list:
+  print(x)
+print()
 # Iterate through the provided `num_list` and create an if statement to print every number greater than 50
 print("Comparison")
 for h in num_list:
   if h >= 50:
     print(h)
 
-
+print()
 # Iterate through the provided `num_list` to print the index of the first occurrence of the number 11.
 print("Index of first occurrence of the number 11:")
-index = 0
-for y in num_list:
-  if y == 11:
-    s = index + 1
-    print(s)
+index = []
+for y in range(len(num_list)):
+  if num_list[y] == 11:
+    index.append(y) 
+    print(index)
 
 # Iterate through the provided `num_list` and print the sum of all the numbers.
 print("Sum of all numbers:")
